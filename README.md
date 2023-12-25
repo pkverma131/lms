@@ -41,6 +41,13 @@ sudo apt-get install git zip curl wget mysql virtaulenv python
 /etc/init.d/mysql stop
 ```
 
+### you were missing baby -- for mysql python client
+
+```
+sudo apt-get install pkg-config
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+pip install mysqlclient
+```
 
 ### Install latest pip
 ```
